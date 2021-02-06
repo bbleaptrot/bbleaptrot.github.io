@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\bblea\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\bblea\\.nuget\\packages"
+    ]
+  }
+}
