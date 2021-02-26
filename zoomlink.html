@@ -17,45 +17,111 @@
 </head>
 
 <!-- body -->
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container"> 
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#abstract">Abstract</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#meet">Meet the Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#plan">Plan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#challenges">Challenges</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#solutions">Solutions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cost">Finances</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#timespent">Timetable</a>
+            </li>
+            </ul>  
+        </div>
+    </nav>
+      <div class = "jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>ZoomLink</h1>
+            <p>Zoom made easier :)</p>
+          </div>
+      </div>
     
     <div class="container">
 
-        <div class="row">
-  
-          <div class="col-md-8 col-sm-8">
+        
+
+            <h3 id="abstract">Abstract</h3>
             <p>
-              <h2>ZoomLink: zoom made easier :)</h2>
+                Zoom has become one of the primary videoconferencing platforms for the education sector. Zoom has 
+                tools and features that many are unaware how to access quickly and efficiently. Our product is geared towards making the 
+                Zoom experience easier. It will be a USB device that connects to the computer. It will feature a touchscreen with tools
+                not readily displayed on Zoom, programmable physical buttons below the touchscreen, and LEDs above the touchscreen to signal
+                when the associated button is on.
             </p>
-          </div>
-  
+        
+        <div style="width: 500px; text-align: center;">
+          <img src="images/Rough_sketch.jpg" style="width: 100%;"alt="">
         </div>
         <hr>
   
-        <h3>Team Members</h3>
-        <ul>
-          <li> Benjamin Leaptrot </li>
-          <li> Luke Majors </li>
-          <li> John Michaels </li>
-          <li> McKay Mower </li>
-        </ul>
+
+        <h3 id="meet">Meet the team</h3>
+        <div class="row">
+            <div class="col-sm">
+                <p>Benjamin Leaptrot <br>
+                   Benjamin will help with software design. Particularly with USB communication</p>
+            </div>
+            <div class="col-sm">
+                <img src="images/BenjiBoii.jpg" style="width: 25%;"alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p>Luke Majors <br>
+                   Luke will be desiging hardware and providing consultation on software design.</p>
+            </div>
+            <div class="col-sm">
+                <img src="images/lmajors.jpg" style="width: 25%;"alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p>John Michaels <br>
+                   John will be designing the program that the computer will use to interact with the USB device.</p>
+            </div>
+            <div class="col-sm">
+                <img src="images/JohnMichaels.png" style="width: 25%;"alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p>Mckay Mower <br>
+                   Mckay will be using python to implement the communication protocol for the USB device and the computer program.</p>
+            </div>
+            <div class="col-sm">
+                <img src="images/mmower.png" style="width: 25%;"alt="">
+            </div>
+        </div>
         <hr>
-  
-        <h3>Abstract</h3>
-        <p>For the education world, Zoom has become the primary tool for holding classes and meeting with students as well as professors. This
-          product is rich with tools and features that many are unaware how to use properly, and trying to attempt to perform these actions
-          during class time can be time-consuming and embarrassing. Our product is geared towards making the Zoom experience easier. This will be acheived
-          through USB device with a touch screen that has more features displayed, and buttons to control aspects like the camera and microphone.
+
+        <h3 id="plan">Collaboration Plan</h3>
+        <p>
+            The primary form of collaboration will be Zoom meetings at least once per week. A text based chat will set up for quick communication regarding planning and any minor issues encountered throughout the week.A shared Google Doc to collaborate on any project notes and documentation. A shared Github repository will be used to share all code involved in the project. 
+        </br>
+            As a general plan, each week team members will be assigned their own tasks to complete before the next team meeting. 
         </p>
   
-        <div style="width: 500px; text-align: center;">
-          <img src="images/Rough_sketch.jpg" style="width: 100%;">
-        </div>
-        <p>The center is a touch screen that will have the User's most desired Zoom features. The red squares underneath are buttons that will activate a feature only while it is pressed, and the circles above the center are lights that correspond to the buttons.</p>
-        <hr>
+        
   
-        <h3>Challenges</h3>
         <hr>
+        <h3 id="challenges">Challenges</h3>
         <div class="row">
   
           <div class="col-sm">
@@ -80,15 +146,9 @@
           </div>
         </div>
   
-        <h3>Monetary Items</h3>
-        <ul>
-          <li>Raspberry Pi - 35$</li>
-          <li>LED with keycap - ??</li>
-        </ul>
         <hr>
-  
-        <h3>Proposed Methods</h3>
-        <hr>
+
+        <h3 id="solutions">Proposed Methods</h3>
         <div class="row">
   
           <div class="col-sm">
@@ -114,8 +174,17 @@
           </div>
         </div>
         <hr>
+
+        <h3 id="cost">Monetary Items</h3>
+        <ul>
+          <li>Raspberry Pi - 35$</li>
+          <li>LED with keycap - ??</li>
+        </ul>
+        <hr>
   
-        <h3>Timetable</h3>
+        
+  
+        <h3 id="timespent">Timetable</h3>
         <p>Explain our prototype here</p>
         <h4>Weekly updates </h4>
         <style type="text/css">
@@ -208,18 +277,7 @@
         </table>
   
   
-      </div>
-  <h3>Collaboration Plan</h3>
-  <hr>
-  <p>
-    The primary form of collaboration will be Zoom meetings at least once per week. A text based chat will set up for quick communication regarding planning and any minor issues encountered throughout the week.A shared Google Doc to collaborate on any project notes and documentation. A shared Github repository will be used to share all code involved in the project. 
-  </br>
-    As a general plan, each week team members will be assigned their own tasks to complete before the next team meeting. 
-  </p>
-  
-      <hr>
-  
-      </div>
+        <hr>
 
     <footer>Last update 02/25/2021</footer>
 
