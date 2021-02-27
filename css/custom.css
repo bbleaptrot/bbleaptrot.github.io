@@ -98,6 +98,7 @@ div .hideNews {
 
 .tg {
   border-collapse: collapse;
+  text-align: center;
   border-spacing: 0;
 }
 
@@ -126,10 +127,10 @@ div .hideNews {
 
 .tg .tg-baqh {
   text-align: center;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .tg .tg-0lax {
   text-align: center;
-  vertical-align: top
+  vertical-align: top;
 }
