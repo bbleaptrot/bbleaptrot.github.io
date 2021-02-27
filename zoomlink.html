@@ -66,8 +66,8 @@
                 when the associated button is on.
             </p>
         
-        <div style="width: 500px; text-align: center;">
-          <img src="images/Rough_sketch.jpg" style="width: 80%;"alt="">
+        <div class = "col-sm">
+          <img src="images/Rough_sketch.jpg" style="width: 50%;"alt="">
         </div>
         <hr>
   
@@ -75,8 +75,8 @@
         <h3 id="meet">Meet the team</h3>
         <div class="row">
             <div class="col-sm">
-                <p>Benjamin Leaptrot <br>
-                   Benjamin will help with software design, particularly with USB communication.</p>
+                <a href="https://bbleaptrot.github.io/">Benjamin Leaptrot</a><br>
+                  <p>Benjamin will help with software design, particularly with USB communication.</p>
             </div>
             <div class="col-sm">
                 <img src="images/BenjiBoii.jpg" style="width: 25%;"alt="">
@@ -84,8 +84,8 @@
         </div>
         <div class="row">
             <div class="col-sm">
-                <p>Luke Majors <br>
-                   Luke will be desiging hardware and providing consultation on software design.</p>
+                <a href="https://lrm77.github.io/Personal-Website/">Luke Majors</a> <br>
+                  <p>Luke will be desiging hardware and providing consultation on software design.</p>
             </div>
             <div class="col-sm">
                 <img src="images/lmajors.jpg" style="width: 33%;"alt="">
@@ -93,8 +93,8 @@
         </div>
         <div class="row">
             <div class="col-sm">
-                <p>John Michaels <br>
-                   John will be designing the program that the computer will use to interact with the USB device.</p>
+                <a href="https://subzeroe03.github.io/">John Michaels</a> <br>
+                  <p>John will be designing the program that the computer will use to interact with the USB device.</p>
             </div>
             <div class="col-sm">
                 <img src="images/JohnMichaels.png" style="width: 25%;"alt="">
@@ -102,8 +102,8 @@
         </div>
         <div class="row">
             <div class="col-sm">
-                <p>Mckay Mower <br>
-                   Mckay will be using python to implement the communication protocol for the USB device and the computer program.</p>
+                <a href="https://mckaymower.github.io/">McKay Mower</a> <br>
+                   <p>Mckay will be using python to implement the communication protocol for the USB device and the computer program.</p>
             </div>
             <div class="col-sm">
                 <img src="images/mmower.png" style="width: 25%;"alt="">
@@ -113,13 +113,21 @@
 
         <h3 id="plan">Collaboration Plan</h3>
         <p>
-          The primary form of collaboration will be Zoom meetings at least once per week. A text based chat will set up for quick communication regarding planning and any minor issues encountered throughout the week. A shared Google Doc to collaborate on any project notes and documentation. A shared Github repository will be used to share all code involved in the project. As a general plan, each week team members will be assigned their own tasks to complete before the next meeting. This strategy will help keep the team motivated to continue moving forward with the project.
+          The primary form of collaboration will be Zoom meetings at least once per week. A text based chat will set up for quick communication 
+          regarding planning and any minor issues encountered throughout the week. A shared Google Doc to collaborate on any project notes and 
+          documentation. A shared Github repository will be used to share all code involved in the project. As a general plan, each week team 
+          members will be assigned their own tasks to complete before the next meeting. This strategy will help keep the team motivated to continue
+          moving forward with the project.
         </br>
       </br>
-          The team has agreed to maintain open communication throughout the entire project. To resolve a conflict, the team will meet on zoom and discuss the issue. One conflict that could occur is a team member not completing their assigned task for the week. The member will be expected to provide their reasoning to the rest of the group, and will be expected to finish their portion. The text chat will also be a useful tool for resolving conflicts quickly. This will allow the team to make adjustments quickly to ensure that all deadlines are met. 
+          The team has agreed to maintain open communication throughout the entire project. To resolve a conflict, the team will meet on zoom and 
+          discuss the issue. One conflict that could occur is a team member not completing their assigned task for the week. The member will be 
+          expected to provide their reasoning to the rest of the group, and will be expected to finish their portion. The text chat will also be a 
+          useful tool for resolving conflicts quickly. This will allow the team to make adjustments quickly to ensure that all deadlines are met. 
         </br>
       </br>
-          The budget of the project will be evenly distributed among each member of the team. Each member will purchase individual components as needed and keep track of all expenses. At the end of the project, these expenses will be reviewed as a group and divided evenly.
+          The budget of the project will be evenly distributed among each member of the team. Each member will purchase individual components as 
+          needed and keep track of all expenses. At the end of the project, these expenses will be reviewed as a group and divided evenly.
         </p>
   
         
@@ -131,20 +139,20 @@
           <div class="col-sm">
             <h5>Software Challenges</h5>
             <ul>
-              <li>USB interfacing</li>
-              <li>Controlling Zoom functions from API</li>
-              <li>Adapting to Zoom updates</li>
-              <li>Adapting project to similar applications</li>
+              <li>USB interfacing (1 Week: John, Mckay)</li>
+              <li>Controlling Zoom functions from API (1 Week: Benjamin)</li>
+              <li>Adapting to Zoom updates (TBD)</li>
+              <li>Adapting project to similar applications (TBD)</li>
             </ul>
           </div>
   
           <div class="col-sm">
             <h5>Hardware Challenges</h5>
             <ul>
-              <li>Customizable buttons for more general use</li>
-              <li>Sending signals from device through USB</li>
-              <li>Cost and availability of components</li>
-              <li>Designing an embedded system to control the device</li>
+              <li>Customizable buttons for more general use (TBD)</li>
+              <li>Sending signals from device through USB (1 Week: Luke)</li>
+              <li>Cost and availability of components (1 Week: John, Benjamin)</li>
+              <li>Designing an embedded system to control the device (TBD not for prototype)</li>
               <li>Making a somewhat durable device</li>
             </ul>
           </div>
@@ -176,61 +184,37 @@
               <li>Solutions for now would be to get things working on a rasberry pie an add on from there.</li>
             </ul>
           </div>
+          <div class="col-sm-12">
+          <p>These solutions will need time to be investigated and tested to ensure they will work with our project. To start, we will
+            be investigating USB. Luke will be leading the USB communication from the device to the user's computer. John and McKay will work 
+            together on creating a program that will take the data received from the device and execute the desired commands. Benjamin will
+            be reading into the Zoom API to see if it is possible to have the program being created by John and McKay can directly communicate with 
+            Zoom. <br>
+            Once these items are complete, more functionality can be added. Ensuring this device will continue to function when an update occurs will
+            be within the next run of objectives to accomplish. When we feel comfortable with the project's ability to handle Zoom, making our product
+            accessible and compatible with other videoconferencing services will be our next objectives.
+          </p>
+        </div>
         </div>
         <hr>
 
         <h3 id="cost">Monetary Items</h3>
         <ul>
-          <li>Raspberry Pi - 35$</li>
-          <li>LED with keycap - ??</li>
+          <li>Raspberry Pi - $60 Amazon</li>
+          <li>Red LED with keycap - $5 Digikey</li>
+          <li>Touchscreen with Rasperry Pi adapter - $70</li>
         </ul>
         <hr>
   
         
   
         <h3 id="timespent">Timetable</h3>
-        <p>Explain our prototype here</p>
+        <p>For the prototype due at the end of Spring Semester 2021, we will be focusing on a Zoom specific device for students. The touchscreen
+          will have 2-3 of Zoom's features available to use, and the physical buttons will be for the microphone, raising the user's hand, and the 
+          camera.
+        </p>
         <h4>Weekly updates </h4>
-        <style type="text/css">
-          .tg {
-            border-collapse: collapse;
-            border-spacing: 0;
-          }
-  
-          .tg td {
-            border-color: black;
-            border-style: solid;
-            border-width: 1px;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            overflow: hidden;
-            padding: 10px 5px;
-            word-break: normal;
-          }
-  
-          .tg th {
-            border-color: black;
-            border-style: solid;
-            border-width: 1px;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            font-weight: normal;
-            overflow: hidden;
-            padding: 10px 5px;
-            word-break: normal;
-          }
-  
-          .tg .tg-baqh {
-            text-align: center;
-            vertical-align: top
-          }
-  
-          .tg .tg-0lax {
-            text-align: left;
-            vertical-align: top
-          }
-  
-        </style>
+        
         <table class="tg">
           <thead>
             <tr>
@@ -283,7 +267,7 @@
   
         <hr>
 
-    <footer>Last update 02/25/2021</footer>
+    <footer>Last update 02/26/2021</footer>
 
     </div>
 
